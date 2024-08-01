@@ -28,3 +28,13 @@ function handleChange(evt) {
 -> So: parent passes its "doSomethingOnSubmit" method as a prop to child.
 -> Child component calls this method, updating the parent's state.
 -> Child is "dumber" - all it knows is to invoke that function with its data
+
+
+Validations using React Hook Form! (another library "Formik" is also very popular)
+-> npm install react-hook-form
+-> import { useForm } from "react-hook-form";
+
+export default function App() {
+    const { register, handleSubmit, watch, formState: { errors}} = useForm();
+    const onSubmit = dta => console.log(data);
+}
