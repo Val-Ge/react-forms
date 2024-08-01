@@ -1,0 +1,4 @@
+Shopping List Example
+
+- Parent: ShoppingList(manages a list of shopping items)
+- child: NewListItemForm(form to add a new item to the list)
